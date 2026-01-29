@@ -14,6 +14,9 @@ export { default as imagenationLogo } from "./imagenationLogo.png";
 export { default as portPhoto } from "./portPhoto.jpg";
 export { default as WordWeaver } from './WordWeaver.png';
 export { default as ssoc } from './ssoc.png'
+export { default as quizzo } from './quizzo.png'
+export { default as meetai } from './meetai.png'
+export { default as tinylink } from './tinylink.png'
 
 // logos
 

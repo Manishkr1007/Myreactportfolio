@@ -201,6 +201,56 @@ const MyTimeline = () => {
           </Typography>
         </TimelineContent>
       </TimelineItem>
+      <TimelineItem>
+        <TimelineOppositeContent
+          sx={{ m: "auto 0" }}
+          variant="body2"
+          color="text.secondary"
+          className="dark:text-teal-600"
+        >
+          Oct 2024 - May 2025
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
+          <TimelineDot color="secondary">
+            <WorkIcon />
+          </TimelineDot>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent sx={{ py: "12px", px: 2 }}>
+          <Typography variant="h6" component="span">
+            Lawazia Tech - Frontend Developer Intern
+          </Typography>
+          <Typography className="dark:text-teal-400">
+            Started as a Frontend Developer Intern at Lawazia Tech, working remotely from Mumbai, Maharashtra. Gained hands-on experience in building dynamic web applications and contributed to frontend development projects.
+          </Typography>
+        </TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineOppositeContent
+          sx={{ m: "auto 0" }}
+          variant="body2"
+          color="text.secondary"
+          className="dark:text-teal-600"
+        >
+          May 2025 - Present
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
+          <TimelineDot color="primary">
+            <WorkIcon />
+          </TimelineDot>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent sx={{ py: "12px", px: 2 }}>
+          <Typography variant="h6" component="span">
+            Lawazia Tech - Full Stack Developer
+          </Typography>
+          <Typography className="dark:text-teal-400">
+            Promoted to Full Stack Developer at Lawazia Tech. Engineering RESTful APIs, optimizing database performance, and streamlining CI/CD pipelines. Working with JavaScript, TypeScript, Node.js, MySQL, and MongoDB to deliver scalable web solutions.
+          </Typography>
+        </TimelineContent>
+      </TimelineItem>
     </Timeline>
   );
 };
